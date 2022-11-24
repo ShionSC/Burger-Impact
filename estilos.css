@@ -1,0 +1,239 @@
+@font-face {
+    font-family: Genshin;
+    src: url(font/zh-cn.ttf);
+  } 
+  
+  body{
+      background-color: #0c0f1d;
+      color: rgb(219, 219, 219);
+      font-family: 'Montserrat';
+      line-height: 2;
+  }
+
+
+  
+  h1{
+    font-family: Genshin;
+    font-size: 50px;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+
+  h2{
+    font-family: Genshin;
+    font-size: 45px;
+    padding: 30px;
+  }
+
+  h3{
+    font-family: Genshin;
+    font-size: 30px;
+    padding: 20px 0px;
+  }
+
+  h4{
+    font-family: Genshin;
+    font-size: 20px;
+    padding: 10px 0px;
+  }
+
+  #texto{
+    padding: 30px 0px;
+  }
+
+  a{
+    color: #597EF8;
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: white;
+  }
+
+  nav{
+    background-color: #1B1D2A;
+    color: #82838A;
+    border-bottom: #343746 10px;
+    z-index:2;
+    position: relative;
+  }
+
+  nav:hover{
+    color: white;
+  }
+
+  footer{
+    background-color: #1B1D2A;
+  }
+
+  .borde{
+    background-color: #1B1D2A;
+    border-radius: 20px;
+  }
+
+  .logo{
+    fill: #597EF8;
+    max-width: 110px;
+  }
+
+  .logo:hover{
+    fill: white;
+  }
+
+  .btn-genshin{
+    color: #597EF8;
+    background-color: #363F7E;
+    border-radius: 50px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    max-width: 200px;
+    margin: 0px 20px;
+  }
+
+  .btn-genshin:hover{
+    color: #fff;
+    background-color: #597EF8;
+  }
+
+  .tags{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+  
+  .btn-tags{
+    color: #597EF8;
+    background-color: #363F7E;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    margin: 0px 20px;
+    width: 150px;
+  }
+
+  .btn-tags:hover{
+    color: #fff;
+    background-color: #597EF8;
+  }
+
+  .card-producto{
+
+    background-color: #1B1D2A;
+    border-radius: 20px;
+    width: 250px;
+    margin: 0px 10px;
+    
+  }
+
+  .items{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+  }
+
+  .uwu{
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 89px;
+    background-color: #0c0f1d;
+    border-radius: 20px;
+  }
+
+  .owo{
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 89px;
+  }
+
+  .item-carrito{
+    font-size: 20px;
+  }
+
+.responsive-slider{
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  z-index:1;
+}
+
+.menu{
+  z-index:0;
+  line-height: normal;
+}
+
+.item-slider{
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  max-width: 300px;
+  margin: auto;
+}
+
+.testimonio-slider{
+  background-color: #0c0f1d;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 20px;
+  max-width: 300px;
+  font-size: 14px;
+  height: 550px;
+}
+
+#nombres{
+  font-family: 'Montserrat';
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.ver{
+  position: -webkit-sticky; 
+  position: sticky;
+  bottom: 0px;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 30px;
+  text-align: center;
+}
+
+.ver-btn{
+  color: #fff;
+  background-color: #597EF8;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin: 0px 20px;
+  width: 200px;
+}
+
+.ver-btn:active{
+  color: #fff;
+  background-color: #597EF8;
+}
+
+.sucursales-card{
+  background-color: #0c0f1d;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.le-card{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+
+
+
